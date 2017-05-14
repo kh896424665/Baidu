@@ -1,0 +1,185 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑"
+}
+nav {
+
+	height: 62px;
+	width: 100%;
+	background-color: #333333;
+
+}
+nav h1 {
+	width: 157px;
+	height: 62px;
+	position: absolute;
+	left: 41px;
+	top: 0px;
+	line-height: 62px;
+	color: red;
+
+}
+nav ul {
+	
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: absolute;
+	right: 30px;
+	line-height: 62px;
+
+}
+nav ul li {
+	float: left;
+	margin-left: 20px;
+}
+nav ul li a {
+	 	display: block;
+	 	width: 100px;
+		text-decoration: none;
+		color: #fff8e7
+}
+body {
+	background-color: #dedede;
+
+}
+div.first {
+	background-color: #ffffff;
+	margin: 21px;
+	padding: 39px 21px 39px 21px;
+
+}
+div.first h4 {
+	color: #67625c;
+
+}
+div.first span {
+	font-size: 80%;
+	color: #8ba28b;
+}
+div.first p {
+	text-indent: 2em;
+}
+div.first ul {
+	list-style-type: none;
+}
+
+div.second {
+	background-color: #ffffff;
+	margin: 21px;
+	padding: 39px 21px 39px 21px;
+}
+div.img {
+	margin: 20px 61px;
+	border: 1px solid #bebebe;
+	text-align: center; 
+	width: 127px;
+	height: 127px;
+}
+div.img img {
+	margin: 8px;
+	width: 105px;
+	height: 85px;
+}
+div.desc {
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 5px;
+
+}
+div.third {
+	background-color: #ffffff;
+	margin: 21px;
+	padding: 39px 21px 39px 21px;
+}
+div.third ol {
+	margin-left: 3em;
+}
+div.third table {
+	width: 100%;
+	height: auto;
+	margin: 0px 15px 10px 3px;
+
+
+}
+span.spe {
+	font-size: 80%;
+	color: #8ba28b;
+}
+
+table,th,td {
+	border: 1px solid gray;
+	text-align: left;
+	border-collapse: collapse;
+}
+tr.first {
+	background-color: black;
+	color: white;
+}
+tr.six {
+	background-color: gray;
+	font-weight: bold;
+}
+div.forth {
+	margin: 21px;
+	background-color: #ffffff;
+	padding: 32px 22px 25px 22px;
+}
+form {
+	position: relative;
+	left: 292px;
+	font-size: 80%;
+
+}
+
+form p {
+	color: gray;
+	margin-top: 13px;
+	position: relative;
+	left: 110px;
+	
+}
+form input,select {
+	margin-left: 15px;
+	margin-top: 8px;
+	
+}
+span.indent {
+	position: relative;
+	left: 2em;
+}
+div.fifth {
+	
+	position: relative;
+	left: 62px;
+}
+textarea {
+	width: 765px; 
+	height: 97px;
+	vertical-align: text-top;
+	margin-left: 40px; 
+}
+input[type="submit"] {
+	height: 40px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: -292px;
+
+}
+footer {
+	width: 100%;
+	height: 71px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+footer p {
+	padding-top: 15px;
+	font-size: 70%;
+}
