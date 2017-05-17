@@ -1,0 +1,50 @@
+div.main {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+  border: solid #999 1px;
+  position: relative;
+  height: 450px;
+
+
+}
+div.first {
+  width: 200px;
+  height: 120px;
+  /*padding: 20px;*/
+  background-color: white;
+  border: solid #999 1px;
+  position: absolute;
+  left: 20px;
+}
+div.first img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 20px;
+  border: solid #999 1px;
+}
+div.second {
+  background-color: white;
+  border: solid #999 1px;
+  margin: 0px 140px 0px 220px;
+  padding: 20px;
+
+}
+div.third {
+  height: auto;
+  width: 120px;
+  background-color: white;
+  border: solid #999 1px;
+  padding-bottom: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+div.third img {
+  margin: 20px 20px 0px 20px;
+  width: 80px;
+  height: 80px;
+  border: solid #999 1px;
+}
