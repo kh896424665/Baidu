@@ -1,0 +1,7 @@
+.triangle {
+    width: 30px;
+    height: 30px;
+    border-width: 30px;
+    border-color: blue black red purple;
+    border-style: solid;
+}
