@@ -5,3 +5,20 @@
     border-color: blue black red purple;
     border-style: solid;
 }
+h2::before{
+    content: "{{";
+    color: red;
+}
+h2::after{
+    content: "}}";
+    color: blue !important;
+}
+h2#page{
+    color: gray;
+}
+a:link:active{
+    color: red;
+}
+a:visited:hover{
+    color: yellow;
+}

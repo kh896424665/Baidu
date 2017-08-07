@@ -182,9 +182,9 @@ div.bleft p{
 	margin-top: 10px;
 	margin-left: 10px;
 }
-div.first_letter p:first-letter{
+div.first_letter p::first-letter{
     float: left;
-    font-size: 70px;
+    font-size: 600%;
     color: #f5e327;
     font-family: "微软雅黑";
     margin: -15px 5px;

@@ -1,0 +1,471 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    min-width: 1280px;
+}
+.header {
+    height: 56px;
+    width: 100%;
+}
+div.logo {
+    float: left;
+    margin: 10px 50px;
+}
+
+div.logo span {
+    font-size: 23px;
+    display: block;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+    position: relative;/*子元素absol*/
+}
+ul img{
+    position: relative;
+    top: 3px;
+}
+ul li {
+    width: 110px;
+    height: 56px;
+    text-align: center;
+    float: left;
+}
+ul li a {
+    color: #848789;
+    text-decoration: none;
+    line-height: 56px;
+}
+ul a:hover{
+    color: red;
+}
+.move{
+    height: 4px;
+    width: 110px;
+    border-top: 4px solid red;/*只需要将上边显示出来*/
+    position: absolute;
+    left: 0;
+    top: 52px;
+    transition: left .2s ease-in-out 0s;/*包含四个过度属性：执行变换属性、执行时间、速率、延迟*/
+    -webkit-transition: left .2s ease-in-out 0s;/*chrome和safari*/
+    -moz-transition: left .2s ease-in-out 0s;/*firefox*/
+    -o-transition: left .2s ease-in-out 0s;/*opera*/
+}
+li:nth-child(1):hover ~ .move{    /*li元素的父元素的第一个子元素，当鼠标停留其上时，move元素的left属性改变*/
+    left: 0px;
+}
+li:nth-child(2):hover~ .move{
+    left: 110px;
+}
+li:nth-child(3):hover~ .move{
+    left: 220px;
+}
+li:nth-child(4):hover~ .move{
+    left: 330px;
+}
+li:nth-child(5):hover~ .move{
+    left: 440px;
+}
+li:nth-child(6):hover~ .move{
+    left: 550px;
+}
+
+div.bigimg {
+    width: 100%;
+    height: 693px;
+    background: url(../images/图一.png) no-repeat center ;
+    background-size: 100%;
+}
+div.body{
+    position: relative;
+    top: 140px;
+    margin-left: 118px;
+}
+div.title h1 {
+    font-size: 64px;
+    color: white;
+    font-weight: 400;
+}
+div.title p{
+    font-size: 20px;
+    color: white;
+}
+div.buttom{
+    height: 60px;
+    width: 332px;
+    margin-top: 60px;
+    background-color: #e7504e;
+}
+div.buttom a{
+    display: block;
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.middle{
+    width: 100%;
+    height: 250px;
+}
+div.ico{
+    height: inherit;
+    width: 24%;
+    text-align: center;
+    /*border: 1px solid;*/
+    float: left;
+}
+div.ico img{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+div.middle hr{
+    height: 50px;
+    width: 2px;
+    background-color: gray;
+    float: left;
+    margin-top: 135px;
+    border: none;
+}
+
+div.middlebottom{
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    background-color: #EDEDED;
+}
+div.middlebottom img {
+    margin-top: 89px;
+}
+div.middlebottom p{
+    margin-top: 55px;
+    font-size: 60px;
+    color: #B8B8B8;
+}
+div.map {
+    width: 100%;
+    height: 340px;
+    background: url(../images/map.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+
+}
+div.city{
+    text-align: center;
+    position: relative;
+    top: 52px;
+}
+div.city hr{
+    height: 2px;
+    width: 32px;
+    background-color: white;
+    margin-top: 0px;
+    border: none;
+}
+div.city p,h2{
+    color: white;
+}
+div.select{
+    position: relative;
+    top: 104px;
+}
+select.box{
+    width: 235px;
+    height: 34px;
+    margin-left: 20px;
+}
+div.select input{
+    width: 235px;
+    height: 34px;
+    background-color: #BE4F48;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+div.photo{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 604px;
+}
+div.frame {
+    text-align: center;s
+    height: 400px;
+    width: 220px;
+    float: left;
+    margin-left: 34px;
+    margin-top: 100px;
+
+}
+div.in {
+    margin-left: 148px;
+
+}
+div.frame p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 14px;
+}
+div.frame img{
+    border: 11px solid white;
+    margin: 10px;
+}
+div.newlife{
+    height: 568px;
+    width: 100%;
+}
+div.new {
+    background: url(../images/person.png) no-repeat;
+    background-size: 100%;
+    height: 568px;
+    width: 66.66%;
+    text-align: center;
+    float: left;
+}
+div.new h1{
+    font-size: 40px;
+    color: white;
+}
+.one {
+    font-size: 200px;
+    color: white;
+}
+.two,.three{
+    font-size: 30px;
+    color: white;
+}
+div.font {
+    position: relative;
+    top: 132px;
+}
+div.world {
+    width: 33.33%;
+    height: 568px;
+    float: right;
+    text-align: center;
+}
+div.world p{
+    text-align: left;
+    line-height: 40px;
+    color: gray;
+    margin: 31px 80px  20px 80px;
+}
+div.world h2{
+    margin-top: 161px;
+    color: black;
+}
+div.href{
+    margin:0 auto;
+    width: 108px;
+    height: 31px;
+    border: 1px solid red;
+    text-align: center;
+}
+div.world a{
+    color: red;
+    text-decoration: none;
+    line-height: 31px;
+
+}
+div.newtime{
+    height: 516px;
+    width: 100%;
+
+}
+div.newfirst,div.newsecond,div.newthird{
+    text-align: center;
+    height: inherit;
+    float: left;
+    width: 33.33%;
+}
+div.newfirst{
+    background-color:#E7504E;
+
+}
+div.newtime hr{
+    height: 2px;
+    width: 32px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: none;
+    background-color: white;
+    display: inline-block;
+}
+div.newfirst p,div.newfirst a{
+    color: white;
+    font-size: 20px;
+}
+div.onebutton {
+    width: 166px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0px auto;
+}
+div.newfirst a{
+    text-decoration: none;
+    line-height:40px;
+}
+div.vertical{
+    vertical-align: middle;
+    margin-top: 171px;
+}
+div.newsecond p{
+    font-size: 20px;
+}
+div.newsecond a {
+    text-decoration: none;
+    line-height: 40px;
+    color: red;
+}
+div.twobutton{
+    width: 166px;
+    height: 40px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 0px auto;
+}
+div.newthird{
+    float: right;
+    background: url(../images/woman.png) no-repeat;
+    background-size: cover;
+
+}
+
+div.newsecond hr{
+    background-color: gray;
+    display: inline-block;
+}
+div.submit{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+}
+div.submit hr{
+    height: 2px;
+    width: 32px;
+    border: none;
+    background-color: red;
+    display: inline-block;
+}
+div.vol {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+div.vol p{
+    color: gray;
+}
+div.vol h3{
+    font-size: 25px;
+}
+div.artical{
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+article{
+    width: 60%;
+    margin: 0 auto;
+}
+div.artical p{
+    font-size: 14px;
+    color: gray;
+}
+form{
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+form input{
+    width: 310px;
+    height: 40px;
+    background-color: #EDEDEE;
+    border: none;
+    margin-bottom: 14px;
+    margin-right: 18px;
+}
+.tijiao{
+    width: 640px;
+    height: 40px;
+    text-align: center;
+    margin-top: 14px;
+    cursor: pointer;
+}
+textarea {
+    width: 640px;
+    height: 120px;
+    background: #EDEDEE;
+    border: none;
+}
+
+
+div.mail{
+    height: 360px;
+    width: 100%;
+    background-color: #33373E;
+    text-align: center;
+}
+div.mail p{
+    color: white;
+}
+p.first-p{
+    font-size: 20px;
+    padding-top: 88px;
+}
+p.second-p{
+    font-size: 12px;
+    line-height: 16px;
+}
+div.mail input{
+    display: inline;
+    margin: 27px 0px;
+    border: none;
+    font-size: 18px;
+
+    margin-left: -5px;
+}
+.first-input{
+    width: 430px;
+    background-color: white;
+    border: none;
+    padding-left: 6px;
+    height: 40px;
+}
+.second-input{
+    color: white;
+    background-color: #707279;
+    width: 80px;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    height: 42px;
+}
+div.footico img{
+    margin: 0px 12.5px;
+}
+div.footer{
+    height: 60px;
+    background-color: #2F3139;
+
+}
+div.footer span{
+    line-height: 60px;
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+}
+div.footer a{
+    float: right;
+    margin-right: 40px;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
